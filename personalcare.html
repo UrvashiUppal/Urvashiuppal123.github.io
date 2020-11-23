@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="makeup, fragrances, skin care">
+<meta name="description" content="CIS 145 _Project">
+<meta name="author" content="Urvashi">
+<style>
+
+
+.container{max-width:1300px; margin:auto; padding-left:25px; padding-right:25px;}
+
+/* parallax style start*/
+.parallax1{background-image:url(images/makeup.jpg); height:max-content; background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;}
+
+.parallax2{background-image:url(images/creams.jpg); height:max-content; background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;}
+
+.parallax3{background-image:url(images/perfumes.jpg); height:max-content; background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;}
+
+/* parallax style ends */
+/*nav code starts*/
+nav{background:#8f7f74; height:80px; width:100%; }
+label.logo{color:white; font-size:35px; line-height:80px; font-weight:bold; padding:0 100px; }
+/* Search box inside the navigation bar */
+nav ul li input[type=text] {float: right; padding: 6px; border: none;margin-top: 8px;
+  margin-right: 16px;font-size: 17px;  border: 1px solid #ccc;}
+nav ul{float:right; margin-right:20px;}
+nav ul li{display: inline-block; line-height:80px; margin:0 50px;}
+nav ul li a{color:white; font-size:25px; font-family:poppins; text-decoration:none; text-allign:center; }
+nav a:hover{background:#d2b48c; color:black; transition:.5s;}
+/*nav code ends*/
+
+
+/*content code starts*/
+.page-title{background:rgba(0,0,0,0.5); text-align:center; color:white; padding:50px; font-size:100px;}
+.content{margin:50px 50px 50px 5%; width:90%; text-allign:center;}
+.categories{width:max-content; margin:25px; border:1px solid #184d47; border-radius:0 0 50px 50px; display:inline-block;}
+.categories:hover{box-shadow:0 0 10px 3px #184d47;}
+.item-image{height:200px; width:200px; border-radius:0 0 50px 50px; padding:10px;}
+.image-title{text-align:center; padding:10px; font-weight:bold;}
+/*content code ends*/
+
+
+/*footer code starts here */
+body{font-family: montserrat; background-color: #d2b48c;}
+.disclaimer{ left: 0;bottom:0; height: 75%; width: 100%; background-color:#CCCCCC; color:black; text-align:center; font-size:20px;}
+.socials {  background-color:#d2b48c;  margin:5px 2px; display:flex; flex wrap: wrap;}
+.socials img{height:50px; width:70px; padding:10px 10px; box-sizing: content-box;}
+.footer{ left: 0;bottom:0; height: 75%; width: 100%; background-color:#8f7f74; color:white; text-align: center;font-size:25px; text-decoration:none;}
+
+
+
+ /* Style the list */
+ul.breadcrumb {padding: 10px 16px;list-style: none; background-color:#d2b48c;}
+
+/* Display list items side by side */
+ul.breadcrumb li {display: inline; font-size: 18px;}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {padding: 8px; color: black; content: "/\00a0";}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {color: #0275d8; text-decoration: none;}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {color: #01447e; text-decoration: underline;} 
+ 
+
+@media screen and (max-width:992px){ .col-2{width:100%;}
+                                     .socials{flex-direction:row; float:left;                                                                h2 h3{font-size:80px;}
+ 
+
+
+}
+
+@media screen and (max-width:600px){.nav{ float:none; width:100%; }
+                                    
+                                    .socials{flex-direction:row; float:left;}
+                                     h2 h3{font-size:20px;}
+                                    label.logo{font-size:25px;}
+                                    .page-title{font-size:30px;}
+                                   
+}
+
+</style>
+
+<title>
+Personal Care Page
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+
+<div class="parallax1">
+<div class="page-title">Makeup</div>
+</div>
+
+<!--navigation bar sttarts from here-->
+<nav>
+<label class="logo"> Feel 'O' Fly Mart</label>
+
+<ul>
+<li> <input type="text" name="" id="search" placeholder="What are you looking for..."></li>
+
+<li><a href="index.html">Home</a></li>	
+<li><a href="contact.html">Contact Us</a></li>	
+
+</ul></nav>
+<ul class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li><a href="personalcare.html">Personal Care</a></li>
+</ul>
+
+<!--Content1 begins-->
+<div class="content">
+<h1>Makeup</h1>
+
+<div class="categories">
+<img src="images/eyeliner.jpg" class="item-image" alt="Venus HD Eyeliner">
+<div class="image-title">Venus HD Eyeliner <br>$5.96</div>
+</div>
+
+<div class="categories">
+<img src="images/foundation.jpg" class="item-image" alt="Venus HD Foundation">
+<div class="image-title">Venus HD Foundation <br>$9.96</div>
+</div>
+
+<div class="categories">
+<img src="images/lipstick.jpg" class="item-image" alt="Venus HD Lipstick">
+<div class="image-title">Venus HD Lipstick <br>$7.97</div>
+</div>
+</div>
+<!--Content1 ends-->
+
+<div class="parallax2">
+<div class="page-title">Skin Care</div>
+</div>
+
+<!--Content2 begins-->
+<div class="content">
+<h1>Skin Care</h1>
+
+<div class="categories">
+<img src="images/acareserum.jpg" class="item-image" alt="Apot.Care Serum">
+<div class="image-title">Apot.Care Serum <br>$35.96</div>
+</div>
+
+<div class="categories">
+<img src="images/cdp.jpg" class="item-image" alt="Creme Mains Cream">
+<div class="image-title">Creme Mains Cream <br>$67.87/75g</div>
+</div>
+
+<div class="categories">
+<img src="images/theordinary.jpg" class="item-image" alt="The Ordinary">
+<div class="image-title">The Ordinary <br>$24.43</div>
+</div>
+</div>
+<!--Content2 ends-->
+<div class="parallax3">
+<div class="page-title">Fragrances</div>
+</div>
+
+<!--Content3 begins-->
+<div class="content">
+<h1>Fragrances</h1>
+
+<div class="categories">
+<img src="images/narciso.jpg" class="item-image" alt="Narciso">
+<div class="image-title">Narciso<br> $143.79</div>
+</div>
+
+<div class="categories">
+<img src="images/chanel.jpg" class="item-image" alt="Chanel">
+<div class="image-title">Chanel <br>$264.83</div>
+</div>
+
+<div class="categories">
+<img src="images/d&gone.jpg" class="item-image" alt="Dolce &amp; Gabbana the one">
+<div class="image-title">Dolce &amp; Gabbana the one <br>$116.43</div>
+</div>
+</div>
+<!--Content3 ends-->
+
+<!--footer containing social icons , disclaimer etc. starts from here -->
+<div class="socials">
+<a href="#" ><img src="images/insta.png" alt="instagram"></a>
+<a href="#" ><img src="images/fb.png" alt="facebook"></a>
+<a href="#"><img src="images/twitter.png" alt="twitter"></a>
+<img src="images/508.png" alt="section 508 compliance logo">
+</div>
+
+<div class="footer"><a href="aboutus.html">About Us</a><br><a href="contact.html">Contact Us </a><br><a href="returns.html">Returns and Exchange</a><br><a href="returns.html"> Terms and Conditions</a></div>
+
+
+<hr>
+<div class="disclaimer"><p1><u>Disclaimer:</u><br>
+"This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi"-Urvashi</p1>
+</div>
+
+
+
+</div>
+</body>
+</html>

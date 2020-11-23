@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="grocery, clothing, footwear, personal care">
+<meta name="description" content="CIS 145 _Project">
+<meta name="author" content="Urvashi">
+<style>
+.container{max-width:1300px; margin:auto; padding-left:25px; padding-right:25px;}
+*{margin:0; padding:0;}
+/*nav code starts- this code is for navigation bar*/
+nav{background:#006699;  height:80px; width:100%; }
+label.logo{color:white; font-size:35px; line-height:80px; font-weight:bold; padding:0 100px; }
+/* Search box inside the navigation bar */
+nav ul li input[type=text] {float: right; padding: 6px; border: none; margin-top:2px; margin-right: 16px;font-size: 17px;  border: 1px solid #ccc;}
+nav ul{float:right; margin-right:20px;}
+nav ul li{display: inline-block; line-height:80px; margin:0 50px;}
+nav ul li a{color:white; font-size:25px; font-family:poppins; text-decoration:none; text-allign:center; }
+nav a:hover{background:#B0E0E6; color:black; transition:.5s;}
+/*nav code ends*/
+body{font-family: montserrat; background-color:#B0E0E6;}
+.disclaimer{ left: 0;bottom:0; height: 75%; width: 100%; background-color:#CCCCCC; color:black; text-align:center; font-size:20px;}
+
+.box{display:block; float:left;width:33.33%; }
+
+/*footer code start-these are the contact icons */
+.socials {  background-color:#B0E0E6;  margin:5px 2px; display:flex; flex wrap: wrap;}
+.socials img{height:50px; width:70px; padding:10px 10px; box-sizing: content-box;}
+.footer{ left: 0;bottom:0; height: 75%; width: 100%; background-color:#339999; color:white; text-align: center;font-size:25px; text-decoration:none;}
+/*footer code ends*/
+
+.box1{display:block; float:left; width:25%; }
+img{border:1px solid #ddd; border-radius:4px; padding:5px; width:150px;}
+
+.row{display:flex; align-items: centre; flex wrap: wrap; justify-content: space-around;}
+.col-2{flex-basis: 50%; min-width: 300px;}
+.col-2 img{max-width:100%; padding:30px o;}
+
+p{color:#8B008B;font-size:30px;}
+h1{ text-align:center; font-size:55px; color:#CD5C5C; border:7px solid black; background-image:url(logobg1.jpg); background-size:cover;}
+
+@media screen and (max-width:992px){ .col-2{width:100%;}
+                                     .socials{flex-direction:row; float:left;                                                                h2 h3{font-size:80px;}
+ 
+
+
+}
+
+@media screen and (max-width:600px){.nav{ float:none; width:100%; }
+                                    .col-2{width:100%;}
+                                    .row{flex-direction:column;}
+                                    .socials{flex-direction:row; float:left;}
+                                     h2 h3{font-size:30px;}
+                                    label.logo{font-size:30px;}
+}
+</style>
+
+<title>
+Home Page
+</title>
+
+</head>
+<body>
+<div class="container">
+<!--header code starts here-->
+<img src="images/logo.jpeg"  height="70" width="200" align="left" >
+
+<h1>  Feel 'O' Fly</h1><br>
+<!--nav code starts here-->
+<nav>
+<label class="logo"> Feel 'O' Fly Mart</label>
+
+<ul>
+<li> <input type="text" name="" id="search" placeholder="What are you looking for..."></li>
+
+<li><a href="index.html">Home</a></li>	
+<li><a href="contact.html">Contact Us</a></li>	
+</ul></nav>
+<!--nav code ends here-->
+
+
+<!--thumbnail images code starts here-->
+<h2>A Look At Our Mart...</h2>
+<h3> Click on image to enlarge it.</h3>
+<div class="box1">
+<a target="_blank" href="images/au2.jpg">
+<img src="images/au2.jpg" alt="our mart" width="150px" height="180">
+</a></div>
+<div class="box1">
+<a target="_blank" href="images/form.jpg">
+<img src="images/form.jpg" alt="our mart" width="150px" height="180">
+</a></div>
+<div class="box1">
+<a target="_blank" href="images/t1.jpg">
+<img src="images/t1.jpg" alt="our mart" width="150px" height="180">
+</a></div>
+<div class="box1">
+<a target="_blank" href="images/t2.jpg">
+<img src="images/t2.jpg" alt="our mart" width="150px" height="180">
+</a></div>
+<!--thumbnail images code ends here-->
+<br>
+
+
+<!--code for image and text navigations-->
+<p><b>Shop by Category</b></p><hr>
+
+<div class="box"><a href="grocery.html"><image src="images/vegetables.jpg" alt="grocery" height="180" width="220" ></a><figcaption><a href="grocery.html"> Grocery</a></figcaption></div>
+<div class="box"><a href="clothing.html"><image src="images/c&a.jpg" alt="clothing and footwear" height="180" width="220" ></a><figcaption><a href="index.html">Clothings and Footwear </a></figcaption></div>
+<div class="box"><a href="personalcare.html"><image src="images/pc.jpg" alt="personal care" height="180" width="220" ></a><figcaption><a href="index.html"> Personal Care</a></figcaption></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="socials">
+<a href="#" ><img src="images/insta.png" alt=""></a>
+<a href="#" ><img src="images/fb.png" alt=""></a>
+<a href="#"><img src="images/twitter.png" alt=""></a>
+<img src="images/508.png" alt="section 508 compliance logo"></div>
+
+<div class="footer"><a href="aboutus.html">About Us</a><br><a href="contact.html">Contact Us </a><br><a href="returns.html">Returns and Exchange</a><br><a href="returns.html"> Terms and Conditions</a></div>
+<hr>
+<div class="disclaimer"><p1><u>Disclaimer:</u><br>
+"This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi"-Urvashi</p1>
+</div>
+</div>
+</body>
+</html>

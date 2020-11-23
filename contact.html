@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="contact us,Feel 'O' Fly">
+<meta name="description" content="CIS 145 _Project">
+<meta name="author" content="Urvashi">
+<style>
+.container{max-width:1300px; margin:auto; padding-left:25px; padding-right:25px;}
+
+body{background-image:url(images/form.jpg); background-size:cover; background-position:center;top-margin:40px; color:white;}
+
+h1{margin:0; padding:0 0 20px; font-weight: bold; color:#ffffff;}
+
+.main{position:absolute; top:75%; left:50%; transform:translate(-50%,-50%); width:400px; height:800px; box-sizing:border-box; background:rgba(0,0,0,.5); padding:50px 40px;}
+.form{padding:10px;}
+#name{width:100%; height:100px;}
+
+/*nav code starts*/
+nav{background:#669999; height:80px; width:100%; }
+label.logo{color:white; font-size:35px; line-height:80px; font-weight:bold; padding:0 100px; }
+/* Search box inside the navigation bar */
+nav ul li input[type=text] {float: right; padding: 6px; border: none;margin-top: 8px;
+  margin-right: 16px;font-size: 17px;  border: 1px solid #ccc;}
+nav ul{float:right; margin-right:20px;}
+nav ul li{display: inline-block; line-height:80px; margin:0 50px;}
+nav ul li a{color:white; font-size:25px; font-family:poppins; text-decoration:none; text-allign:center; }
+nav a:hover{background:#669999; color:black; transition:.5s;}
+/*nav code ends*/
+
+ /* Styling the list for breadcrumb navigation */
+ul.breadcrumb {padding: 10px 16px; list-style: none; }
+
+/* Display list items side by side */
+ul.breadcrumb li { display: inline; font-size: 18px;}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {padding: 8px;color: black;content: "/\00a0";}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {color: #0275d8; text-decoration: none;}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover { color: #01447e; text-decoration: underline;} 
+
+.container{max-width:1300px; margin:auto; padding-left:25px; padding-right:25px;}
+@media screen and (max-width:992px){h2 h3{font-size:80px;}}
+ 
+
+@media screen and (max-width:600px){.nav{ float:none; width:100%; }
+                                    h2 h3{font-size:30px;}
+                                    label.logo{font-size:20px;}
+                                     .main{top:95%}
+}
+</style>
+
+<title>
+Form
+</title>
+</head>
+<body>
+<div class="container">
+<!--navigation bar starts here-->
+<nav>
+<label class="logo"> Feel 'O' Fly Mart</label>
+<ul>
+<li> <input type="text" name="" id="search" placeholder="What are you looking for..."></li>
+
+<li><a href="index.html">Home</a></li>	
+<li><a href="contact.html">Contact Us</a></li>	
+
+</ul></nav>
+<!--navigation bar ends here-->
+<!--breadcrumb navigations strts here-->
+<ul class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+<!--breadcrumb navigations ends here-->
+<div class="main">
+<h1>Feel 'O' Fly Online Mart Contact Form</h1>
+<form action:"urvashiuppal8@gmail.com" target="_blank">
+<div id="name"> 
+<h2 class="name"> Name</h2>
+<input type="text" value=""><br>
+<label class="firstlabel">First Name</label><br>
+
+<input type="text" value=""><br>
+<label class="lastlabel">Last Name</label><br>
+</div>
+<br>
+<h2 class="name">Phone Number</h2>
+<input type="text" value=""><br>
+
+<h2 class="name">Email</h2>
+<input type="text" value=""><br>
+
+<h2 class="name">Address</h2>
+<input type="text" value=""><br>
+
+<h2 class="name">What you are?</h2>
+<select class="option" name="position">
+<option disabled="disabled" selected="selected">Choose option</option>
+<option>Seller</option>
+<option>Buyer</option>
+<option>Job Seeker</option></select>
+
+<h2 class="name">Method of contact</h2>
+<input type="radio" name="mode" value="call">Call
+<input type="radio" name="mode" value="email">Email<br><br><br>
+
+<input type="Submit" value="Submit">
+</form></div>
+
+</div>
+</body>
+</html>
